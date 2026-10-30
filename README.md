@@ -44,7 +44,7 @@ The lexer is case-insensitive and ignores whitespace characters, tabs, commas, p
 
 ## How to test
 
-Using the assembler program is very simple; just run the `EPM_assembler.py` file in an environment that supports Python 3. Within the program, in the `main` section, the `EPM_asm2hex()` function is called, with the name of the source code file as its argument, as shown in Figure 2.4. For example, if you want to assemble the assembly code in the file `Post_code.asm`, you can leave this name as is or replace it with the name of the corresponding file. In either case, if the source code has no syntax errors, a file with `.hex` extension will be generated, containing the machine code that can be programmed into the microprocessor’s code space.
+Using the assembler program is very simple; just run the `EPM_assembler.py` file in an environment that supports Python 3. Within the program, in the `main` section, the `EPM_asm2hex()` function is called, with the name of the source code file as its argument. For example, if you want to assemble the assembly code in the file `Post_code.asm`, you can leave this name as is or replace it with the name of the corresponding file. In either case, if the source code has no syntax errors, a file with `.hex` extension will be generated, containing the machine code that can be programmed into the microprocessor’s code space.
 
 The following figure shows a simple example of assembly language code:
 
