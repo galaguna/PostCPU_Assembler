@@ -14,7 +14,7 @@ The following is the formal specification of the production rules that govern th
 
 /* Main Program Structure */
 
-<programa>        ::= <linea>*
+`<programa>        ::= <linea>*`
 
 <linea>           ::= [ <linea_asm> ] TERMINADOR
 
