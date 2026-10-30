@@ -15,14 +15,19 @@ The following is the formal specification of the production rules that govern th
 /* Main Program Structure */
 
 <programa>        ::= <linea>*
+
 <linea>           ::= [ <linea_asm> ] TERMINADOR
+
 <linea_asm>       ::= <directiva_org> | <sentencia>
+
 <sentencia>       ::= [ ETIQUETA ] <instruccion>
 
 /* Origin Directive and Operands */
 
 <directiva_org>   ::= "org" <numero>
+
 <numero>          ::= DECIMAL | HEXADECIMAL
+
 <destino_salto>   ::= ETIQUETA | <numero>
 
 /* Instruction Categories */
